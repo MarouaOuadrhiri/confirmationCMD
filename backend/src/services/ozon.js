@@ -3,8 +3,8 @@
  * Endpoint: https://api.ozonexpress.ma/customers/{YOUR_ID}/{YOUR_API_KEY}/add-parcel
  */
 
-const DEFAULT_CUSTOMER_ID = '97465';
-const DEFAULT_API_KEY = 'd8a679-4b84fc-87738c-f5a1d1-f4aef6';
+const DEFAULT_CUSTOMER_ID = ''; // set OZON_CUSTOMER_ID in the environment
+const DEFAULT_API_KEY = ''; // set OZON_API_KEY in the environment — never commit real keys
 const DEFAULT_API_BASE = 'https://api.ozonexpress.ma';
 
 /**
