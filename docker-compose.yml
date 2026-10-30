@@ -14,7 +14,7 @@ services:
     restart: unless-stopped
     command: --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_ROOT_PASSWORD: secret_db_pass
+      MYSQL_ROOT_PASSWORD: change-me-local-dev
       MYSQL_DATABASE: gestionCmdMdiast
     volumes:
       - mysql_data:/var/lib/mysql
@@ -22,7 +22,7 @@ services:
     ports:
       - "3306:3306"
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-psecret_db_pass"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pchange-me-local-dev"]
       interval: 5s
       timeout: 5s
       retries: 12
@@ -46,9 +46,9 @@ services:
       DB_HOST: mysql
       DB_PORT: 3306
       DB_USER: root
-      DB_PASSWORD: secret_db_pass
+      DB_PASSWORD: change-me-local-dev
       DB_NAME: gestionCmdMdiast
-      JWT_SECRET: super_secret_jwt_mediast_key_2026
+      JWT_SECRET: change-me-local-dev-jwt
     ports:
       - "4000:4000"
 
