@@ -1577,7 +1577,7 @@ export default function OrdersPage() {
                 </label>
                 {selectedCompany.toLowerCase().includes('ozon') && (
                   <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--brand)', background: 'var(--brand-light)', padding: '2px 8px', borderRadius: 'var(--radius-pill)' }}>
-                    ⚡ API Ozon Connectée (ID: 97465)
+                    ⚡ API Ozon Connectée
                   </span>
                 )}
               </div>
@@ -1589,7 +1589,7 @@ export default function OrdersPage() {
               />
               {selectedCompany.toLowerCase().includes('ozon') && (
                 <p style={{ fontSize: 11.5, color: 'var(--ink-muted)', marginTop: 4, marginBottom: 0 }}>
-                  💡 La commande sera automatiquement transmise à Ozon Express (ID: 97465) lors de la validation.
+                  💡 La commande sera automatiquement transmise à Ozon Express lors de la validation.
                 </p>
               )}
             </div>
