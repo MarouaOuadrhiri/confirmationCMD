@@ -1,0 +1,1 @@
+{"dependencies":{"next":"^14.2.5","react":"^18.3.1","react-dom":"^18.3.1","recharts":"^3.10.1"},"description":"OptiCommerce COD dashboard frontend (Next.js)","name":"opticommerce-dashboard-frontend","private":true,"scripts":{"build":"next build","dev":"next dev -p 3000","start":"next start -p 3000"},"version":"1.0.0"}

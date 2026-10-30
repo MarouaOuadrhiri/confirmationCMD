@@ -1,0 +1,13 @@
+{
+  "name": "opticommerce-dashboard-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "OptiCommerce Dashboard Root Workspace",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build"
+  }
+}
